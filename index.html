@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" a href="style.css">
+    <link rel="shortcut icon" href="./imagens/dinossauro.png">
+    <link rel="stylesheet" a href="style.css"><!--se n funcionar coloca type="image/x-icon">-->
     <title>Dinossauro rei</title>
 </head>
 <body>
     <header>
         <h1>D i nossau ro Rei</h1>
     </header>
-    <nav><a href="index.html">Inicio</a><!--com o nav fora significa que vc quer que ele faça outra coisa-->
-    <a href="index.html">Personagens</a>
-    <a href="index.html">Dinossauros</a></nav>
+    <nav>
+        <a href="index.html">Inicio</a><!--com o nav fora significa que vc quer que ele faça outra coisa-->
+        <a href="personagens.html">Personagens</a>
+        <a href="index.html">Dinossauros</a></nav>
     <main><!--conteudo principal do seu site -->
         <section id="Personagens"><!--separar os card em nomes com comentarios para saber qual é qual-->
             <h2>Personagens Principais</h2>
@@ -35,23 +37,31 @@
                     <br>
         <br>
         </section>
-
+        
         <section id="Dinossauro">
             <h2>Melhores Dinossauros</h2>
             <article class="card1">
-                <img src="./imagens/tricera.jfif" alt="Zoe Drake"><!--Parasauro-->
+                <div class="img">
+                <img src="./imagens/tricera.jfif" alt="Zoe Drake">
+            </div><!--Parasauro-->
                         <h3>Gabu</h3>
                         <p>Triceratops</p>
                         
             </article>
             <article class="card1">
-                <img src="./imagens/terry.webp" alt="Zoe Drake"><!--Parasauro-->
+                <div class="img">
+                <img src="./imagens/terry.webp" alt="Zoe Drake">
+            </div><!--Parasauro-->
                     <h3>terry</h3>
                     <p>T-rex</p>
                     
                 </article> 
         </section>
+
         </div>
     </main>
+    <footer>
+        &copy;Dinossauro rei
+    </footer>
 </body>
 </html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/jurassic-park');
+@import url('https://fonts.cdnfonts.com/css/jurassic-bones');
+@import url('https://fonts.cdnfonts.com/css/dino');
+*{
+    box-sizing: border-box;/* Serve para ativar o modelo de caixa de dentro do seu site asssim eu consigo definir: margim, border e padding*/
+    margin: 0%;/*controla a distancia das caixas*/
+    padding: 0%;/*controla o espaçamento internamente das caixas*/
+}
+body{/*aqui é para nós alterarmos o body*/
+    background-color: #141313;
+    
+}
+.personagen{/*aqui nós alteramos o estilo sem ser as imagens*/
+    background-color: rgb(240, 129, 25);
+    padding: 50px 20px;
+}
+.item{
+    background-color: #141313;
+    border-radius: 10px;
+    height: 500px;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.item:hover{
+    translate: 10px;
+    transition: 500ms;
+    background-color: rgb(155, 94, 2);
+}
+.item img{/*aqui nós modificamos o tamnho da imagem em alutura e largura*/
+    width: 500px;
+    height: 400px;
+}
+.personagen h2{/*é a área de alteração do h2 alterando somente ele*/
+    color: #141313;
+    font-size: 107px;
+    font-family: 'Jurassic Park', sans-serif;
+}
+.container-perso{/*é o pai dos cards alterando todos os cards que estão dentro dele*/
+    display: flex;/*ativa o display do flex box flex box*/
+    flex-wrap: wrap;/*permite quebrar a linha se não houver espaço*/
+    gap: 30px;/*espaçamento entre os cards*/
+    justify-content: center;/*centraliza tudo no centro*/
+    align-items: stretch;
+} 

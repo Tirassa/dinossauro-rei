@@ -26,8 +26,8 @@ body{
     margin: 20px;
 }
 .card:hover{
-    
-    transform: 0.5s;
+    translate: 5px;
+    transition: 500ms;
 }
 .card img{
     width: 300px;
@@ -61,6 +61,7 @@ nav a{/*é a parte de navegação do seu site sem ser dentro do header*/
 nav a:hover{
     color: #1c1c1c;
     background-color: #F77F00;
+    transition: 500ms;
 }
 #Personagens h2{
     font-family: 'Jurassic Bones', sans-serif;
@@ -81,14 +82,36 @@ nav a:hover{
     background-color: rgba(66, 63, 62, 0.904);
     color: #ffffff;
     padding: 10px;
-    width: 350px;
+    width: 550px;
     border-radius: 10px;
     font-family: 'Dino', sans-serif;
     margin: 20px;
+
+}
+.card1 h3{
+    font-size: 35px;
+}
+.card1 p{
+    font-size: 35px;
 }
 #Dinossauro h2{
     
     font-family: 'Jurassic Bones', sans-serif;
     color: #ffffff;
-    font-size: 60px;
+    font-size: 80px;
+}
+.card1:hover{
+    translate: 10px;
+    transition: 500ms;
+    background-color: #F77F00;
+    color: #1C1C1C;
+}
+img{
+    border: 10px solid rgb(27, 27, 25)
+}
+footer{
+    background-color: #F77F00;
+    color: #141313;
+    height: 30px;
+    font-size: 25px;
 }
